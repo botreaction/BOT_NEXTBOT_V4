@@ -305,7 +305,7 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLinkGc' in chat))           
-                    chat.antiLinkGc = false
+                    chat.antiLinkGc = true
                 if (!('antiLinkYt' in chat))
                     chat.antiLinkYt = false
                 if (!('antiLinkTik' in chat))
@@ -325,7 +325,7 @@ export async function handler(chatUpdate) {
                 if (!('antiStiker' in chat)) 
                     chat.antiSticker = false
                 if (!('viewonce' in chat))
-                    chat.viewonce = false
+                    chat.viewonce = true
                 if (!('antiToxic' in chat)) 
                     chat.antiToxic = true
                 if (!('simi' in chat))
@@ -346,7 +346,7 @@ export async function handler(chatUpdate) {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLinkGc: false,
+                    antiLinkGc: true,
 	                antiLinkTik: false, 
 	                antiLinkTel: false,
 	                antiLinkIg: false,
@@ -356,7 +356,7 @@ export async function handler(chatUpdate) {
 	                antiSpam: true,
 	                antiStiker: false,
 	                antiVirtex: true,
-                    viewonce: false,
+                    viewonce: true,
                     antiToxic: true,
                     simi: false,
                     expired: 0,
